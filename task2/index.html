@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexora digital product studio landing page">
+  <title>Nexora | Digital product studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <a class="hero__logo" href="#home" aria-label="Nexora home">Nexora</a>
+      <div class="hero__copy">
+        <h1>Build with Nexora</h1>
+        <p>A product studio crafting web &amp; mobile experiences</p>
+      </div>
+      <a class="hero__scroll" href="#about">Scroll down</a>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Primary navigation">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#home">Nexora</a>
+      <button class="nav__toggle" type="button" aria-label="Open navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__list">
+        <li><a class="nav__link nav__link--active" href="#home">Home</a></li>
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#services">Services</a></li>
+        <li><a class="nav__link" href="#work">Work</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-grid">
+    <section class="story section" id="about">
+      <div class="container story__grid">
+        <div class="section-heading">
+          <p class="eyebrow">Our story</p>
+          <span class="heading-line"></span>
+        </div>
+        <div class="story__content">
+          <div class="story__text">
+            <h2>Founded in 2016 by two engineers, Nexora has grown into a full-cycle digital product studio.</h2>
+            <p>We help startups and enterprises design, build and launch digital products. From discovery and UX research to shipping production-ready code, our team stays involved at every stage of the product lifecycle.</p>
+          </div>
+          <div class="story__cards" aria-label="Product process">
+            <article class="story-card story-card--plan"><span>We design</span></article>
+            <article class="story-card story-card--manage"><span>We develop</span></article>
+            <article class="story-card story-card--build"><span>We launch</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="capabilities section" id="services">
+      <div class="container capabilities__top">
+        <div class="section-heading">
+          <p class="eyebrow">Our capabilities</p>
+          <span class="heading-line"></span>
+        </div>
+        <p class="capabilities__intro">From product discovery to long-term support — we cover the full cycle of digital product development.</p>
+        <a class="button" href="#contact">All services</a>
+      </div>
+
+      <div class="container services-grid" id="work">
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">⌂</div>
+          <h3>Web &amp; mobile development</h3>
+          <p>Reliable front-end and back-end engineering for web apps, dashboards and cross-platform mobile products.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">▣</div>
+          <h3>UI/UX &amp; product design</h3>
+          <p>Research-driven interfaces that balance usability, brand identity and business goals.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">◆</div>
+          <h3>Cloud &amp; DevOps</h3>
+          <p>Scalable infrastructure, CI/CD pipelines and monitoring that keep your product fast and stable.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container cta__inner">
+        <div>
+          <p class="eyebrow eyebrow--light">Let’s build something together</p>
+          <h2>Have an idea for a digital product?</h2>
+        </div>
+        <a class="button button--light" href="#contact-form">Get in touch</a>
+      </div>
+    </section>
+
+    <section class="newsletter section" aria-labelledby="newsletter-title">
+      <div class="container newsletter__inner">
+        <div>
+          <p class="eyebrow">Stay connected</p>
+          <h2 id="newsletter-title">Get in touch with our team</h2>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label class="contact-form__message">
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+          </label>
+          <button class="button" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a class="footer__brand" href="#home">Nexora</a>
+        <p>Digital product studio for ambitious teams.</p>
+      </div>
+      <div>
+        <p class="footer__title">Company</p>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+      </div>
+      <div>
+        <p class="footer__title">Contact</p>
+        <a href="mailto:hello@nexora.example">hello@nexora.example</a>
+        <a href="tel:+440000000000">+44 000 000 0000</a>
+      </div>
+    </div>
+    <p class="footer__copyright">© 2026 Nexora. All rights reserved.</p>
+  </footer>
+</body>
+</html>
